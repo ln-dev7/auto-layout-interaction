@@ -102,14 +102,14 @@ const App: React.FC = () => {
           <motion.img
             src="/main.png"
             alt="main-image"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover bg-slte-50"
           />
           <div className="absolute flex items-center justify-center inset-0">
             <motion.img
               layout
               src="/logo-light.svg"
               alt="logo-lndevui"
-              className="w-20"
+              className="w-20 bg-slte-50"
             />
           </div>
         </motion.div>
@@ -152,7 +152,7 @@ const App: React.FC = () => {
               <motion.img
                 src="/card.png"
                 alt="card-image"
-                className="object-cover cursor-pointer mt-10"
+                className="object-cover cursor-pointer mt-10 bg-slte-50"
                 style={{
                   width: 220,
                   height: 250,
@@ -164,7 +164,7 @@ const App: React.FC = () => {
               <motion.img
                 src="/card.png"
                 alt="card-image"
-                className="object-cover cursor-pointer"
+                className="object-cover cursor-pointer bg-slte-50"
                 style={{
                   width: 220,
                   height: 250,
@@ -175,7 +175,7 @@ const App: React.FC = () => {
               <motion.img
                 src="/card.png"
                 alt="card-image"
-                className="object-cover cursor-pointer mt-10"
+                className="object-cover cursor-pointer mt-10 bg-slte-50"
                 style={{
                   width: 220,
                   height: 250,
